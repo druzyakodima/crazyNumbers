@@ -5,6 +5,7 @@ import infoAboutNumber.NumbersProperties;
 public final class JumpingNumber implements NumbersProperties {
 
     public boolean checkNumbers(String inputNumber) {
+
         String[] arrNumbersString = inputNumber.split("");
         boolean isJumping = true;
         if (inputNumber.length() != 1) {

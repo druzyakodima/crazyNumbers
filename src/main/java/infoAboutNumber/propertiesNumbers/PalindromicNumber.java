@@ -5,6 +5,7 @@ import infoAboutNumber.NumbersProperties;
 public final class PalindromicNumber implements NumbersProperties {
 
     public boolean checkNumbers(String inputNumber) {
+
         if (inputNumber.length() > 0) {
             String[] arr = inputNumber.split("");
             boolean isPalindrome = true;

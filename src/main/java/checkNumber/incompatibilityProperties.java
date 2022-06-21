@@ -3,6 +3,7 @@ package checkNumber;
 import java.util.Locale;
 
 public final class incompatibilityProperties {
+
     public Boolean checkingIncompatibilityProperties(String twoPropertyAndMore) {
 
         String[] arrayProperties = twoPropertyAndMore.split(" ");

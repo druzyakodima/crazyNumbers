@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 public final class DuckNumber implements NumbersProperties {
 
     public boolean checkNumbers(String inputNumber) {
+
         String[] arr = inputNumber.split("");
         List<String> list = Arrays.stream(arr).collect(Collectors.toList());
         long arrNumber = 1;

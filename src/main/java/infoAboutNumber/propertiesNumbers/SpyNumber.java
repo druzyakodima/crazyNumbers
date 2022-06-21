@@ -5,6 +5,7 @@ import infoAboutNumber.NumbersProperties;
 public final class SpyNumber implements NumbersProperties {
 
     public boolean checkNumbers(String inputNumber) {
+
         String[] numbers = inputNumber.split("");
         long composition = 1;
         long sum = 0;

@@ -1,4 +1,5 @@
 package menuAndAnswer;
+
 public final class Supported {
 
     public void supported() {
@@ -13,6 +14,7 @@ public final class Supported {
                 "- a property preceded by minus must not be present in numbers;\n" +
                 "- separate the parameters with one space;\n" +
                 "- enter 0 to exit.\n");
+
         EnterARequest request = new EnterARequest();
         request.request();
     }

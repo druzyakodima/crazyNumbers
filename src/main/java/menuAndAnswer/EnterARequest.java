@@ -13,6 +13,7 @@ import java.util.Scanner;
 public final class EnterARequest {
 
     public void request() {
+
         Scanner scanner = new Scanner(System.in);
         SearchProperties searchProperties = new SearchProperties();
         String inputNumber = " ";

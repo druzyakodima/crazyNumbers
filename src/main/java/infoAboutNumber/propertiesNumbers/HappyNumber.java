@@ -9,6 +9,7 @@ public final class HappyNumber implements NumbersProperties {
     private ArrayList<Long> squareList;
 
     public boolean checkNumbers(String inputNumber) {
+
         String[] numbers = inputNumber.split("");
         squareList = new ArrayList<>();
         long sumSquareNumbers = 0;

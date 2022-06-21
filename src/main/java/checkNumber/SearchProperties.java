@@ -50,7 +50,7 @@ public final class SearchProperties {
             isNumber = "The properties " + inputNumber.toUpperCase(Locale.ROOT) + " are wrong.\n" +
                     "Available properties:\n[EVEN, ODD, BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, SQUARE, SUNNY, JUMPING, HAPPY, SAD] \n";
         } else {
-            isNumber = "The property "  + inputNumber.toUpperCase(Locale.ROOT) + " is wrong.\n" +
+            isNumber = "The property " + inputNumber.toUpperCase(Locale.ROOT) + " is wrong.\n" +
                     "Available properties:\n[EVEN, ODD, BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, SQUARE, SUNNY, JUMPING, HAPPY, SAD] \n";
         }
         return isNumber;

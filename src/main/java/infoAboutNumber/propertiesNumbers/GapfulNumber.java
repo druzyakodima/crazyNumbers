@@ -5,6 +5,7 @@ import infoAboutNumber.NumbersProperties;
 public final class GapfulNumber implements NumbersProperties {
 
     public boolean checkNumbers(String inputNumber) {
+
         String[] array = inputNumber.split("");
         String fistAndLastNumber = array[0] + array[array.length - 1];
         if (array.length >= 3) {

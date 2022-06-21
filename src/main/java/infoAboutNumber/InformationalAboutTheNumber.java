@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public final class InformationalAboutTheNumber {
 
     public void infoNumber(String inputNumber, ArrayList<String> stopProperties) {
+
         String[] numbersWithProperties = inputNumber.split(" ");
 
         EnterARequest enterARequest = new EnterARequest();

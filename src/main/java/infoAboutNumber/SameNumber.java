@@ -60,7 +60,6 @@ public final class SameNumber {
                 }
 
 
-
                 if (countNumbers < needNumbers) {
                     isNumbers.append(i).append(" is ");
                     int index = 0;

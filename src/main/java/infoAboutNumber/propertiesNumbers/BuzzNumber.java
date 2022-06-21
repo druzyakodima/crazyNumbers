@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 public final class BuzzNumber implements NumbersProperties {
 
     public boolean checkNumbers(String inputNumber) {
+
         String[] arr = inputNumber.split("");
         boolean isBuzzNumber;
         if (arr.length > 1) {
