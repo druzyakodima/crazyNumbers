@@ -9,6 +9,7 @@ public final class SquareNumber implements NumbersProperties {
         boolean isSquare;
         long number = Long.parseLong(inputNumber);
         isSquare = number % Math.sqrt(number) == 0;
+
         return isSquare;
     }
 }

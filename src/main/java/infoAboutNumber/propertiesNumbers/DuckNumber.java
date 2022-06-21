@@ -14,6 +14,7 @@ public final class DuckNumber implements NumbersProperties {
         List<String> list = Arrays.stream(arr).collect(Collectors.toList());
         long arrNumber = 1;
         list.remove(0);
+
         for (String num : list) {
             arrNumber *= Long.parseLong(num);
         }

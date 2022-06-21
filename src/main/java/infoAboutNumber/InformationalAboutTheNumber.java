@@ -46,7 +46,6 @@ public final class InformationalAboutTheNumber {
         HappyNumber happyNumber = new HappyNumber();
         SadNumbers sadNumbers = new SadNumbers();
 
-
         System.out.println("\nProperties of " + inputNumber + "\n" +
                 "        buzz: " + buzzNumber.checkNumbers(inputNumber) + "\n" +
                 "        duck: " + duckNumber.checkNumbers(inputNumber) + "\n" +

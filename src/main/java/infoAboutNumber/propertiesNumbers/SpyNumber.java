@@ -13,6 +13,7 @@ public final class SpyNumber implements NumbersProperties {
             composition *= Integer.parseInt(number);
             sum += Integer.parseInt(number);
         }
+
         return composition == sum;
     }
 }

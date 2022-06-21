@@ -20,6 +20,7 @@ public final class PalindromicNumber implements NumbersProperties {
             }
             return isPalindrome;
         } else {
+
             return false;
         }
 

@@ -9,6 +9,7 @@ public final class SunnyNumber implements NumbersProperties {
         boolean isSunny;
         long number = Long.parseLong(inputNumber) + 1;
         isSunny = (number) % Math.sqrt(number) == 0;
+
         return isSunny;
     }
 }

@@ -6,5 +6,6 @@ public class TestDriveAmazingNumbers {
 
         Supported supported = new Supported();
         supported.supported();
+
     }
 }
