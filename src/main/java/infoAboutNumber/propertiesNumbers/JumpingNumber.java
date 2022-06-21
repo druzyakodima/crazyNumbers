@@ -17,20 +17,21 @@ public final class JumpingNumber implements NumbersProperties {
 
             if ((numbers[0] - numbers[1] == 1 || numbers[0] - numbers[1] == -1) && numbers.length == 2) {
                 return true;
-            }else {
+            } else {
                 isJumping = false;
             }
 
             for (int i = 1; i < numbers.length - 1; i++) {
                 long checkNextNumbers = numbers[i] - numbers[i + 1];
                 long checkPrevious = numbers[i] - numbers[i - 1];
-                if( (checkNextNumbers == 1 ||checkNextNumbers == -1) && (checkPrevious == 1 ||checkPrevious == -1) ) {
+                if ((checkNextNumbers == 1 || checkNextNumbers == -1) && (checkPrevious == 1 || checkPrevious == -1)) {
                     isJumping = true;
                 } else {
                     return false;
                 }
             }
         }
+
         return isJumping;
     }
 }

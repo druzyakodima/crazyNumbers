@@ -26,6 +26,7 @@ public final class HappyNumber implements NumbersProperties {
             sumSquareNumbers = sumSquare(squareList, sumSquareNumbers);
             if (checkEnd(sumSquareNumbers)) return false;
         }
+
         return true;
     }
 
@@ -34,6 +35,7 @@ public final class HappyNumber implements NumbersProperties {
             return true;
         }
         squareList.clear();
+
         return false;
     }
 
@@ -41,6 +43,7 @@ public final class HappyNumber implements NumbersProperties {
         for (Long aLong : squareList) {
             sumSquareNumbers += aLong;
         }
+
         return sumSquareNumbers;
     }
 

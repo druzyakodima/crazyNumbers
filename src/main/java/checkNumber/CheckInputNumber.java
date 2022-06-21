@@ -9,6 +9,7 @@ public final class CheckInputNumber {
     public void checkNumber(String inputNumber) {
 
         String[] array = inputNumber.split(" ");
+
         for (int i = 0; i < array.length; i++) {
             if (array[i].startsWith("-") && i == 0) {
                 printExFirstNumber();

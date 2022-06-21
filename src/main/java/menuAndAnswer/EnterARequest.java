@@ -53,6 +53,7 @@ public final class EnterARequest {
             }
 
             informationAboutTheNumber.infoNumber(inputNumber, stopProperties);
+
         }
     }
 }

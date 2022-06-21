@@ -17,6 +17,7 @@ public final class incompatibilityProperties {
                 }
                 if (stop.matches("(.*)" + twoProperties + "(.*)")) {
                     System.out.printf("The request contains mutually exclusive properties: [%s]\nThere are no numbers with these properties.\n", twoProperties.trim().replace(" ", ", "));
+
                     return false;
                 }
             }

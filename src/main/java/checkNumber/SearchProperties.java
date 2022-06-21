@@ -16,6 +16,7 @@ public final class SearchProperties {
         boolean isWrong = true;
         priorities = inputNumber.split(" ");
         falsePriority = new ArrayList<>();
+
         for (String property : priorities) {
             switch (property.replace("-", "").toUpperCase(Locale.ROOT)) {
                 case "BUZZ":
@@ -53,6 +54,7 @@ public final class SearchProperties {
             isNumber = "The property " + inputNumber.toUpperCase(Locale.ROOT) + " is wrong.\n" +
                     "Available properties:\n[EVEN, ODD, BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, SQUARE, SUNNY, JUMPING, HAPPY, SAD] \n";
         }
+
         return isNumber;
     }
 }
